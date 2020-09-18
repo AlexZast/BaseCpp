@@ -3,14 +3,12 @@
 
 using namespace std;
 
-
-
-
-
-
-
-
-
+namespace _geek
+{
+	Devision(int a, int b){
+		return a%b;
+	}
+}
 
 
 
