@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+iostream
+-
+string
+-
+
+D:/GeekBrainsEducation/main_C++/C ++basics/BaseCpp/HW2/src/program.cpp
+head.h
+D:/GeekBrainsEducation/main_C++/C ++basics/BaseCpp/HW2/src/head.h
+

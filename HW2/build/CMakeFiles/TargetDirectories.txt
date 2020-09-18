@@ -1,0 +1,3 @@
+D:/GeekBrainsEducation/main_C++/C ++basics/BaseCpp/HW2/build/CMakeFiles/HW2.dir
+D:/GeekBrainsEducation/main_C++/C ++basics/BaseCpp/HW2/build/CMakeFiles/edit_cache.dir
+D:/GeekBrainsEducation/main_C++/C ++basics/BaseCpp/HW2/build/CMakeFiles/rebuild_cache.dir
