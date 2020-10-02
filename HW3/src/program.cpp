@@ -13,6 +13,7 @@ Path("Part 1");
 /* Задание №1 */
 	
 	using _geek::Devision;
+	
 	cout << Devision(5, 6) << endl;
 
 	
