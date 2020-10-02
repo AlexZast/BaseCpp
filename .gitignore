@@ -9,8 +9,13 @@ HW3/build/Makefile
 HW3/build/CMakeCache.txt
 
 categorizer/build/
+<<<<<<< HEAD
 =======
 HW2/build/cmake_install.cmake
 
 HW2/build/CMakeFiles/
 >>>>>>> HW2
+=======
+
+categorizer/PreLoad.cmak
+>>>>>>> HW3
