@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+#CMAKE_GENERATOR(MinGW Makefiles)
+
 project(categorizer)
 
 file(GLOB sources "src/*.cpp")
