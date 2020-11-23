@@ -94,17 +94,18 @@ void BuildDiagramm(std::fstream *f, unsigned int *histogramm, int &wight, int &h
 
 // Печать диаграммы в файл
 void PrintToFile(unsigned int *histogramm, int &wight, int &height, char *args){
-    ofstream out("histogramm.txt");
-    out << "File : " << args << endl;
-    out << "Wight: " << wight << "\t Height1: " << height << endl;
+    ofstream* out = new ofstream("histogram.txt");
+    *out << "File : " << args << endl;
+    *out << "Wight: " << wight << "\t Height1: " << height << endl;
     for(int j=0; j<256; j++){
-       out << "[" << j << "] ";
-        for (int c = 0; c<histogramm[j]; c++)
-           out << "|";
-        out << endl;
+       *out << "[" << j << "] ";
+        for (int c = 0; c < histogramm[j]; c++)
+           *out << "|";
+        *out << endl;
     }
-    out << "End of file " << args << endl << endl;
-    out.close();
+    *out << "End of file " << args << endl << endl;
+    out->close();
+    delete out;
 }
 
 
